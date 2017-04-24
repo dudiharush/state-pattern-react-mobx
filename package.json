@@ -1,0 +1,25 @@
+{
+  "name": "state-pattern",
+  "version": "1.0.0",
+  "description": "state design pattern using mobx and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dudi harush",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^15.0.22",
+    "@types/react-dom": "^15.5.0",
+    "mobx": "^3.1.9",
+    "mobx-react": "^4.1.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "mobx-react-devtools": "^4.2.11",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.2.2"
+  }
+}
