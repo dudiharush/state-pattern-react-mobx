@@ -1,7 +1,7 @@
-import { PlayerStateContext, IPlayerState } from "../player-state-context";
+import { PlayerStateContext, IPlayerState } from "../../player-state-context";
 
-export class StopState implements IPlayerState {
-  private context: PlayerStateContext;
+export class PowerOnStopState implements IPlayerState {
+  context: PlayerStateContext;
 
   constructor(playerStateContext: PlayerStateContext) {
     this.context = playerStateContext;
