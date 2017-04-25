@@ -55,7 +55,7 @@ export class PlayerStateContext {
             this.setStatus("player power is off");
         } else {
             this.powerState = "On"
-            this.currentState().execute();
+            this.executeStateAction(this.currentState().execute)
         }
     }
 
@@ -78,10 +78,10 @@ export class PlayerStateContext {
         this.executeStateAction(this.currentState().execute)
     };
 
-    private executeStateAction(stateFunctionToExecute: { (context: PlayerStateContext): void }) {
-        stateFunctionToExecute(this);
+    private executeStateAction(stateFunctionToExecute: { (): void }) {
+        stateFunctionToExecute();
         if (this.powerState === "On") {
-            this.currentState().execute();
+            this.isPlayerStateExecuting = true;
         }
     }
 
