@@ -1,5 +1,7 @@
 # state-pattern-react-mobx
-an implementation of the "state" design pattern, using React and Mobx
+An implementation of the "state" design pattern, using React and Mobx
+
+http://www.dofactory.com/net/state-design-pattern
 
 Installation:
 1. run: npm i
