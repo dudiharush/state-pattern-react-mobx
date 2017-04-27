@@ -18,8 +18,12 @@
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.1.2",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
     "mobx-react-devtools": "^4.2.11",
     "source-map-loader": "^0.2.1",
-    "typescript": "^2.2.2"
+    "style-loader": "^0.16.1",
+    "typescript": "^2.2.2",
+    "webpack": "^2.2.0"
   }
 }
